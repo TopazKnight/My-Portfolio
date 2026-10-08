@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Warehouse Management System",
+    "category": "system",
+    "type": "SYSTEM PROGRAMMING",
+    "description": "Sistem inventaris gudang berbasis C++ yang dioptimalkan menggunakan struktur data AVL Tree untuk performa pencarian yang cepat.",
+    "tags": [
+      "C++",
+      "AVL Tree",
+      "Data Structures"
+    ],
+    "badge": "C / C++",
+    "gradient": "project-gradient-1",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Personal Portfolio Web",
+    "category": "web",
+    "type": "FRONTEND WEBSITE",
+    "description": "Situs portofolio interaktif dengan dukungan dark mode, responsif, dinamis berbasis JSON data engine, dan performa tinggi.",
+    "tags": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "badge": "WEB PORTFOLIO",
+    "gradient": "project-gradient-2",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Task Management System",
+    "category": "fullstack",
+    "type": "FULLSTACK APPLICATION",
+    "description": "Aplikasi produktivitas untuk mengelola tugas harian, prioritas kerja, pelacakan target, dan terintegrasi dengan REST API.",
+    "tags": [
+      "JavaScript",
+      "Node.js",
+      "REST API"
+    ],
+    "badge": "WEB APP",
+    "gradient": "project-gradient-3",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Deteksi Dini Penyakit Daun Kentang",
+    "category": "ai",
+    "type": "AI / COMPUTER VISION",
+    "description": "Sistem deteksi dini penyakit pada daun kentang menggunakan model YOLO26, dengan dataset citra yang bersumber dari Kaggle dan Roboflow.",
+    "tags": [
+      "YOLO26",
+      "Kaggle",
+      "Roboflow",
+      "Computer Vision"
+    ],
+    "badge": "YOLO26",
+    "gradient": "project-gradient-4",
+    "link": "#"
+  }
+]

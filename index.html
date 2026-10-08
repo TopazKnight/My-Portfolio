@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Pribadi - Software Engineer & Cloud Engineer | Gerald">
+  <title>Portfolio | Gerald - Software Engineer</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navigasi Utama">
+      <a href="#home" class="logo" aria-label="Halaman Utama">&lt;G /&gt;</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Buka menu navigasi">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#profile" class="nav-link">Profile</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema warna">
+          <span class="theme-icon">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Gerald</h1>
+          <h2>Cloud Engineer</h2>
+          <p class="hero-text">
+            Saya membangun website dan aplikasi web modern, responsif, dan mudah digunakan dengan fokus pada performa serta pengalaman pengguna.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="code-card">
+            <div class="window-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <pre><code><span class="keyword">const</span> developer = {
+  name: <span class="string">"Gerald"</span>,
+  role: <span class="string">"Cloud Engineer"</span>,
+  skills: [
+    <span class="string">"JavaScript"</span>,
+    <span class="string">"PHP / Laravel"</span>,
+    <span class="string">"C++"</span>
+  ],
+  passion: <span class="boolean">true</span>
+};</code></pre>
+          </div>
+          <div class="floating-card card-one">✦ Creative UI/UX</div>
+          <div class="floating-card card-two">⚡ High Performance</div>
+        </div>
+      </div>
+      <a href="#profile" class="scroll-down" aria-label="Scroll ke bagian Profile">Scroll ↓</a>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="section" id="profile">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY PROFILE</p>
+          <h2>Profil <span>Profesional</span></h2>
+        </div>
+
+        <div class="profile-grid reveal">
+          <div class="profile-card">
+            <div class="profile-avatar">G</div>
+            <div class="profile-info">
+              <h3>Gerald</h3>
+              <p class="profile-role">Software Engineer &amp; Cloud Engineer</p>
+              <p class="profile-bio">
+                Pengembang perangkat lunak yang berfokus pada cloud engineering, arsitektur backend, dan pengembangan aplikasi web. Tertarik membangun infrastruktur yang skalabel serta mengelola basis data dan RESTful API yang aman.
+              </p>
+              
+              <div class="profile-highlights">
+                <div class="highlight-item">
+                  <strong>Fokus Utama</strong>
+                  <span>Cloud Infrastructure, Backend Architecture, &amp; Deployment</span>
+                </div>
+                <div class="highlight-item">
+                  <strong>Bahasa Pemrograman</strong>
+                  <span>C++, PHP, JavaScript, SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>Keahlian <span>Teknis</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Frontend</h3>
+            <p>Membangun antarmuka interaktif, reaktif, dan responsif.</p>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Tailwind</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">⚙</div>
+            <h3>Backend</h3>
+            <p>Membuat RESTful API dan logika arsitektur server.</p>
+            <div class="tags"><span>Node.js</span><span>PHP</span><span>Laravel</span><span>Python</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">☁</div>
+            <h3>Cloud Engineering</h3>
+            <p>Mengelola infrastruktur cloud, container, dan proses deployment aplikasi.</p>
+            <div class="tags"><span>AWS</span><span>Docker</span><span>Linux</span><span>CI/CD</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">◈</div>
+            <h3>Database &amp; DS</h3>
+            <p>Mengelola skema basis data dan struktur data tingkat lanjut.</p>
+            <div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>C++</span><span>AVL Tree</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">✦</div>
+            <h3>Alat &amp; Alur Kerja</h3>
+            <p>Manajemen repositori, deployment, dan otomatisasi.</p>
+            <div class="tags"><span>Git</span><span>GitHub</span><span>Vercel</span><span>VS Code</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY WORK</p>
+          <h2>Project <span>Unggulan</span></h2>
+        </div>
+
+        <div class="filter-container reveal">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="web">Web App</button>
+          <button class="filter-btn" data-filter="system">System</button>
+          <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+          <button class="filter-btn" data-filter="ai">AI / Computer Vision</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Contact / Connect Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-heading reveal text-center">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Mari <span>Terhubung</span></h2>
+          <p class="section-desc">Temukan dan terhubung dengan saya melalui platform di bawah ini:</p>
+        </div>
+
+        <div class="contact-links-grid reveal">
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-card linkedin">
+            <div class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+            </div>
+            <div class="social-text">
+              <h3>LinkedIn</h3>
+              <p>Mari terhubung secara profesional</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/TopazKnight" target="_blank" rel="noopener noreferrer" class="social-card github">
+            <div class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+              </svg>
+            </div>
+            <div class="social-text">
+              <h3>GitHub</h3>
+              <p>Lihat repositori dan proyek kode saya</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/dae_p07/" target="_blank" rel="noopener noreferrer" class="social-card instagram">
+            <div class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+            <div class="social-text">
+              <h3>Instagram</h3>
+              <p>Ikuti aktivitas dan pembaruan harian</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <!-- Direct Email -->
+          <a href="mailto:gerald.hafizh@gmail.com" class="social-card email">
+            <div class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </div>
+            <div class="social-text">
+              <h3>Email</h3>
+              <p>Kirim email secara langsung</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Gerald. Hak Cipta Dilindungi.</p>
+      <a href="#home" class="back-to-top">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+
+  <script src="lib/engine.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
